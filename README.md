@@ -1,2 +1,2 @@
-# Assignment_1-Ineuron.ai-
+# Assignment_1(python)
 This is my first repository for python 
