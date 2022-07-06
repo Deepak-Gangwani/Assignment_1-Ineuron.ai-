@@ -1,0 +1,49 @@
+SUBMITTED BY: Deepak Gangwani
+
+Q1.What are the two values of the boolean data types? how do you write them?
+Two values of the boolean data types are True and False.
+We have to use capital T and F and with the rest of the word in lowercase. 
+The type() of both False and True is boolean.
+for eg:-
+#input
+a=True
+b=False
+print(type(a),type(b))
+#output
+<class 'bool'> <class 'bool'>
+
+Q2. What are the three different types of Boolean operators?
+The boolean operators other name is logical operators which operate on conditional statements.
+and ->True if both operands are True else False
+or  ->True if at least one operand is True else False
+not ->Inverts True to False and False to True
+
+Q3. Make a list of each Boolean operator&#39;s truth tables (i.e. every possible combination of Boolean
+values for the operator and what it evaluate ).
+#and
+True and True --> True
+True and False --> False
+False and True --> False
+False and False --> False
+#or
+True or True --> True
+True or False --> True
+False or True --> True
+False or False --> False
+#not
+True not --> False 
+False not --> True
+
+Q4. What are the values of the following expressions?
+(5>4) and (3 == 5) -> False
+not (5>4) -> False
+(5>4) or (3 == 5)-> True
+not ((5>4) or (3 == 5))-> False
+(True and True) and (True == False)-> False
+(not False) or (not True)->True
+
+Q5. What are the six comparison operators?
+==,>,>=,<,<=,!=
+
+Q6. How do you tell the difference between the equal to and assignment operators?Describe a
+condition and when you would use one.
