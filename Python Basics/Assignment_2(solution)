@@ -1,6 +1,7 @@
 SUBMITTED BY: Deepak Gangwani
 
 Q1.What are the two values of the boolean data types? how do you write them?
+Answer
 Two values of the boolean data types are True and False.
 We have to use capital T and F and with the rest of the word in lowercase. 
 The type() of both False and True is boolean.
@@ -13,6 +14,7 @@ print(type(a),type(b))
 <class 'bool'> <class 'bool'>
 
 Q2. What are the three different types of Boolean operators?
+Answer
 The boolean operators other name is logical operators which operate on conditional statements.
 and ->True if both operands are True else False
 or  ->True if at least one operand is True else False
@@ -20,6 +22,7 @@ not ->Inverts True to False and False to True
 
 Q3. Make a list of each Boolean operator&#39;s truth tables (i.e. every possible combination of Boolean
 values for the operator and what it evaluate ).
+Answer
 #and
 True and True --> True
 True and False --> False
@@ -35,6 +38,7 @@ True not --> False
 False not --> True
 
 Q4. What are the values of the following expressions?
+Answer
 (5>4) and (3 == 5) -> False
 not (5>4) -> False
 (5>4) or (3 == 5)-> True
@@ -43,7 +47,82 @@ not ((5>4) or (3 == 5))-> False
 (not False) or (not True)->True
 
 Q5. What are the six comparison operators?
-==,>,>=,<,<=,!=
+Answer)==,>,>=,<,<=,!=
 
-Q6. How do you tell the difference between the equal to and assignment operators?Describe a
-condition and when you would use one.
+Q6. How do you tell the difference between the equal to and assignment operators?Describe a condition and when you would use one.
+Answer
+the equal(==) to operator that compares two values and evaluates both value are equal or not.Whereas,the assignment(=) operator
+are used for assigning or storing data into variable
+#equal
+print(4==5)#evauluating whether the given statement is true or false
+#assignment
+a=10
+print(a)#assigning the data by declaring the variable
+
+Q7. Identify the three blocks in this code:
+Answer
+spam=0
+if spam==10:
+    print("eggs")
+elif spam > 5:
+    print("bacon")
+else:
+    print("ham")
+    print("spam")
+    print("spam")
+#output
+ham
+spam
+spam
+
+Q8. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints
+Greetings! if anything else is stored in spam.
+Answer
+spam=int(input("Enter the Number:-"))
+if spam==1:
+    print("Howdy")
+elif spam==2:
+    print("Greetings")
+else:
+    print("Spam")
+#output    
+Enter the Number:-1
+Howdy
+
+9.If your programme is stuck in an endless loop, what keys you’ll press?
+Answer)ctrl-c to break the loop
+
+10. How can you tell the difference between break and continue?
+Answer)The break statement will move the execution outside the loop 
+if break condtion is satisfied whereas the continue statement 
+will move the execution to the start of the loop.
+
+11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+Answer
+#The range(10) call range from 0 to 9 (but not include 10)
+for i in range(10):
+  print(i)
+#The range (0,10) explicitly tells the loop to start at 0
+for i in range(0,10):
+  print(i)
+#The range(0,10,1) explicitly tells the loop to increase the variable by 1 on each iteration
+for i in range(0,10,1):
+  print(i)
+  
+ 12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent
+program that prints the numbers 1 to 10 using a while loop.
+Answer
+#for loop
+for i in range(1,11):
+  print(i)
+#While loop
+i=1
+while i<11:
+  print(i)
+  i=i+1
+ 
+ 13. If you had a function named bacon() inside a module named spam, how would you call it after
+importing spam?
+Answer) This function can be called with spam.bacon()
+   
+
